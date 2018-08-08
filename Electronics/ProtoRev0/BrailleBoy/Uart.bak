@@ -5,10 +5,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 5
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "FT232(RL)-based UART programming/communications interface"
+Date "2018-08-07"
+Rev "1.0.0"
+Comp "Devyash Lodha"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -307,8 +307,8 @@ L Device:C_Small C?
 U 1 1 5B72E018
 P 3150 2000
 AR Path="/5B72E018" Ref="C?"  Part="1" 
-AR Path="/5B72DEC1/5B72E018" Ref="C15"  Part="1" 
-F 0 "C15" V 2921 2000 50  0000 C CNN
+AR Path="/5B72DEC1/5B72E018" Ref="C13"  Part="1" 
+F 0 "C13" V 2921 2000 50  0000 C CNN
 F 1 "0.1uF" V 3012 2000 50  0000 C CNN
 F 2 "Capacitors_SMD:C_0805" H 3150 2000 50  0001 C CNN
 F 3 "~" H 3150 2000 50  0001 C CNN

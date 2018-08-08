@@ -5,10 +5,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 5
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "Solenoid Matrix and Power Electronics"
+Date "2018-08-07"
+Rev "1.0.0"
+Comp "Devyash Lodha"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -993,19 +993,19 @@ Text Label 5100 4450 0    50   ~ 0
 MidRight
 Text Label 5100 4550 0    50   ~ 0
 BotRight
-Text HLabel 5450 2950 2    50   Input ~ 0
+Text HLabel 5100 5350 2    50   Input ~ 0
 PWR_IN
-Text HLabel 5850 4400 0    50   Input ~ 0
+Text HLabel 5100 5450 2    50   Input ~ 0
 GND
 Text HLabel 8950 1250 1    50   Input ~ 0
 PWR_IN
 Text HLabel 8950 1750 3    50   Input ~ 0
 GND
 $Comp
-L Device:C C17
+L Device:C C15
 U 1 1 5BDDCF7F
 P 8800 1500
-F 0 "C17" H 8915 1546 50  0000 L CNN
+F 0 "C15" H 8915 1546 50  0000 L CNN
 F 1 "10uF" H 8850 1400 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 8838 1350 50  0001 C CNN
 F 3 "~" H 8800 1500 50  0001 C CNN
@@ -1013,10 +1013,10 @@ F 3 "~" H 8800 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C18
+L Device:C C16
 U 1 1 5BDDD0D5
 P 9100 1500
-F 0 "C18" H 9215 1546 50  0000 L CNN
+F 0 "C16" H 9215 1546 50  0000 L CNN
 F 1 "0.1uF" H 9150 1400 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 9138 1350 50  0001 C CNN
 F 3 "~" H 9100 1500 50  0001 C CNN
@@ -1024,10 +1024,10 @@ F 3 "~" H 9100 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C16
+L Device:C C14
 U 1 1 5BDDD165
 P 8500 1500
-F 0 "C16" H 8615 1546 50  0000 L CNN
+F 0 "C14" H 8615 1546 50  0000 L CNN
 F 1 "22uF" H 8550 1400 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 8538 1350 50  0001 C CNN
 F 3 "~" H 8500 1500 50  0001 C CNN
@@ -1035,10 +1035,10 @@ F 3 "~" H 8500 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C19
+L Device:C C17
 U 1 1 5BDDD1F5
 P 9400 1500
-F 0 "C19" H 9515 1546 50  0000 L CNN
+F 0 "C17" H 9515 1546 50  0000 L CNN
 F 1 "0.1uF" H 9450 1400 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 9438 1350 50  0001 C CNN
 F 3 "~" H 9400 1500 50  0001 C CNN
@@ -1126,5 +1126,61 @@ F22 "MOS_HIGH2" I R 5000 4250 50
 F23 "MOS_HIGH3" I R 5000 4350 50 
 F24 "MOS_HIGH4" I R 5000 4450 50 
 F25 "MOS_HIGH5" I R 5000 4550 50 
+F26 "POWER_IN" I R 5000 5350 50 
+F27 "GROUND_IN" I R 5000 5450 50 
+F28 "DRIVER_VOLTAGE_OUT" I R 5000 5550 50 
 $EndSheet
+Wire Wire Line
+	5100 4050 5000 4050
+Wire Wire Line
+	5000 4150 5100 4150
+Wire Wire Line
+	5100 4250 5000 4250
+Wire Wire Line
+	5000 4350 5100 4350
+Wire Wire Line
+	5100 4450 5000 4450
+Wire Wire Line
+	5000 4550 5100 4550
+Wire Wire Line
+	5100 4650 5000 4650
+Wire Wire Line
+	5000 4750 5100 4750
+Wire Wire Line
+	5100 4850 5000 4850
+Wire Wire Line
+	5000 4950 5100 4950
+Wire Wire Line
+	5000 5050 5100 5050
+Wire Wire Line
+	5100 5150 5000 5150
+Wire Wire Line
+	3250 5150 3350 5150
+Wire Wire Line
+	3350 5050 3250 5050
+Wire Wire Line
+	3250 4950 3350 4950
+Wire Wire Line
+	3350 4850 3250 4850
+Wire Wire Line
+	3250 4750 3350 4750
+Wire Wire Line
+	3350 4650 3250 4650
+Wire Wire Line
+	3250 4550 3350 4550
+Wire Wire Line
+	3350 4450 3250 4450
+Wire Wire Line
+	3250 4350 3350 4350
+Wire Wire Line
+	3350 4250 3250 4250
+Wire Wire Line
+	3250 4150 3350 4150
+Wire Wire Line
+	3350 4050 3250 4050
+Wire Wire Line
+	5000 5350 5100 5350
+Wire Wire Line
+	5100 5450 5000 5450
+NoConn ~ 5000 5550
 $EndSCHEMATC
