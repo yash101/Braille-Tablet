@@ -1,0 +1,29 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AP2115-SOIC
+D 3.3v Linear Regulator, SOIC
+K 3.3v, linear, regulator
+F  https://www.mouser.com/datasheet/2/115/AP2115-464923.pdf
+$ENDCMP
+#
+$CMP MCP23017
+D 16 bit I2C I/O expander, QFN/SOIC/SPDIP/SSOP
+F https://www.mouser.com/datasheet/2/268/20001952C-1129816.pdf
+$ENDCMP
+#
+$CMP MCP23S17
+D 16 bit SPI I/O expander, QFN/SOIC/SPDIP/SSOP
+F https://www.mouser.com/datasheet/2/268/20001952C-1129816.pdf
+$ENDCMP
+#
+$CMP PMD3001D
+D Gate driver
+$ENDCMP
+#
+$CMP TC1240(A)
+D Charge pump; TC1240 has a Vin range from 2v5 to 4v; TC1240A has a Vin range from 2v5 to 5v5.
+K Charge pump, Voltage regulator, Voltage doubler
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21516D.pdf
+$ENDCMP
+#
+#End Doc Library
