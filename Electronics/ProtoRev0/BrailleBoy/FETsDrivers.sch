@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 5 5
 Title "BrailleBoy - MOSFET and MOSFET driver implementation"
 Date "2018-08-07"
-Rev "1.0.0"
+Rev "1.0.1"
 Comp "Devyash Lodha"
 Comment1 "BrailleBoy"
 Comment2 ""

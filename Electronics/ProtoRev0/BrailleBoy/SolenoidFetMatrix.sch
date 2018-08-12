@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 4 5
 Title "Solenoid Matrix and Power Electronics"
 Date "2018-08-07"
-Rev "1.0.0"
+Rev "1.0.1"
 Comp "Devyash Lodha"
 Comment1 ""
 Comment2 ""

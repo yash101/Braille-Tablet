@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 5
 Title "BrailleBoy - Main Control Systems"
 Date "2018-08-07"
-Rev "1.0.0"
+Rev "1.0.1"
 Comp "Devyash Lodha"
 Comment1 ""
 Comment2 ""

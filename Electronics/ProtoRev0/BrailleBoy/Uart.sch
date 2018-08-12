@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 3 5
 Title "FT232(RL)-based UART programming/communications interface"
 Date "2018-08-07"
-Rev "1.0.0"
+Rev "1.0.1"
 Comp "Devyash Lodha"
 Comment1 ""
 Comment2 ""

@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 2 5
 Title "Power management system"
 Date "2018-08-07"
-Rev "1.0.0"
+Rev "1.0.1"
 Comp "Devyash Lodha"
 Comment1 "Battery connector, voltage regulator, LiPo charger, Battery level indicator"
 Comment2 ""
