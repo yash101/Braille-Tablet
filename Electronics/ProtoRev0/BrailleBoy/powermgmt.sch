@@ -1,13 +1,13 @@
 EESchema Schematic File Version 4
 LIBS:BrailleBoy-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 5
 Title "Power management system"
 Date "2018-08-07"
-Rev "1.0.0"
+Rev "1.0.1"
 Comp "Devyash Lodha"
 Comment1 "Battery connector, voltage regulator, LiPo charger, Battery level indicator"
 Comment2 ""
@@ -26,19 +26,6 @@ F 2 "Package_TO_SOT_SMD:SOT-23-5" H 4500 1650 50  0001 L CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf" H 4300 1850 50  0001 C CNN
 	1    4450 1900
 	0    -1   -1   0   
-$EndComp
-$Comp
-L Custom:AP2115-SOIC U?
-U 1 1 5B66D9AC
-P 2900 1900
-AR Path="/5B66D9AC" Ref="U?"  Part="1" 
-AR Path="/5B66D91B/5B66D9AC" Ref="U4"  Part="1" 
-F 0 "U4" H 3200 2075 50  0000 C CNN
-F 1 "AP2115-SOIC" H 3200 1984 50  0000 C CNN
-F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 2900 2000 50  0001 C CNN
-F 3 "" H 2900 2000 50  0001 C CNN
-	1    2900 1900
-	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:USB_B_Micro J?
@@ -510,4 +497,15 @@ Wire Notes Line
 	5550 2750 2100 2750
 Wire Notes Line
 	2100 650  2100 2750
+$Comp
+L Custom:AP2115-SOIC U?
+U 1 1 5D4816D5
+P 2900 1900
+F 0 "U?" H 3200 2075 50  0000 C CNN
+F 1 "AP2115-SOIC" H 3200 1984 50  0000 C CNN
+F 2 "" H 2900 2000 50  0001 C CNN
+F 3 " https://www.mouser.com/datasheet/2/115/AP2115-464923.pdf" H 2900 2000 50  0001 C CNN
+	1    2900 1900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

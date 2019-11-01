@@ -1,13 +1,13 @@
 EESchema Schematic File Version 4
 LIBS:BrailleBoy-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 5
 Title "Solenoid Matrix and Power Electronics"
 Date "2018-08-07"
-Rev "1.0.0"
+Rev "1.0.1"
 Comp "Devyash Lodha"
 Comment1 ""
 Comment2 ""
