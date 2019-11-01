@@ -1,5 +1,6 @@
 (sym_lib_table
-  (lib (name ESP32-footprints-Shem-Lib)(type Legacy)(uri Z:/Projects/BrailleBoy/Electronics/KiCAD_Libraries/ESP32-Footprints/ESP32-footprints-Shem-Lib.lib)(options "")(descr ""))
-  (lib (name espressif-xess)(type Legacy)(uri Z:/Projects/BrailleBoy/Electronics/KiCAD_Libraries/ESP32-Footprints/espressif-xess.lib)(options "")(descr ""))
-  (lib (name Custom)(type Legacy)(uri Z:/Projects/BrailleBoy/Electronics/KiCAD_Libraries/CustomComponents2/Custom.lib)(options "")(descr ""))
+  (lib (name custom)(type Legacy)(uri D:/Documents/Projects/Electronics/BrailleBoy/Electronics/KiCAD_Libraries/custom.lib)(options "")(descr "")(disabled))
+  (lib (name ESP32-footprints-Shem-Lib)(type Legacy)(uri D:/Documents/Projects/Electronics/BrailleBoy/Electronics/KiCAD_Libraries/ESP32-Footprints/ESP32-footprints-Shem-Lib.lib)(options "")(descr ""))
+  (lib (name espressif-xess)(type Legacy)(uri D:/Documents/Projects/Electronics/BrailleBoy/Electronics/KiCAD_Libraries/ESP32-Footprints/espressif-xess.lib)(options "")(descr ""))
+  (lib (name Custom)(type Legacy)(uri D:/Documents/Projects/Electronics/BrailleBoy/Electronics/KiCAD_Libraries/CustomComponents2/Custom.lib)(options "")(descr ""))
 )

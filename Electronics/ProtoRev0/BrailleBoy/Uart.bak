@@ -1,32 +1,19 @@
 EESchema Schematic File Version 4
 LIBS:BrailleBoy-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 5
 Title "FT232(RL)-based UART programming/communications interface"
 Date "2018-08-07"
-Rev "1.0.0"
+Rev "1.0.1"
 Comp "Devyash Lodha"
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Interface_USB:FT232RL U?
-U 1 1 5B72DF76
-P 1900 2100
-AR Path="/5B72DF76" Ref="U?"  Part="1" 
-AR Path="/5B72DEC1/5B72DF76" Ref="U6"  Part="1" 
-F 0 "U6" H 1900 3278 50  0000 C CNN
-F 1 "FT232RL" H 1850 3200 50  0000 C CNN
-F 2 "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm" H 1900 2100 50  0001 C CNN
-F 3 "http://www.ftdichip.com/Products/ICs/FT232RL.htm" H 1900 2100 50  0001 C CNN
-	1    1900 2100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1000 1800 1100 1800
 Wire Wire Line
@@ -418,4 +405,15 @@ Wire Notes Line
 	600  650  600  3500
 Text Notes 1950 650  0    50   ~ 0
 FT232-RL UART CONFIGURATION
+$Comp
+L Interface_USB:FT232RL U?
+U 1 1 5D482DCD
+P 1900 2100
+F 0 "U?" H 1900 3281 50  0000 C CNN
+F 1 "FT232RL" H 1900 3190 50  0000 C CNN
+F 2 "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm" H 1900 2100 50  0001 C CNN
+F 3 "http://www.ftdichip.com/Products/ICs/FT232RL.htm" H 1900 2100 50  0001 C CNN
+	1    1900 2100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
